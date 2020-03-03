@@ -234,8 +234,7 @@ def winning_team
  
  game_hash[:home][:players].each do |k|
    
+   binding.pry
   end
-  
-  binding.pry 
   
 end
