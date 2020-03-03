@@ -254,6 +254,5 @@ def player_with_longest_name
       player_names_array << k[:player_name]
     end
   end
-  binding.pry
   player_names_array.sort_by(&:length).last 
 end
