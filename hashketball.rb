@@ -255,5 +255,5 @@ def player_with_longest_name
       player_names_array << k[:player_name]
     end
   end
-  sort_names_array.last 
+  return sort_names_array.last 
 end
