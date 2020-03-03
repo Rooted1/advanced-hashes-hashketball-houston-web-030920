@@ -208,7 +208,7 @@ end
 
 def most_points_scored
   point = 0
-  player_name = 0
+  player_name = ""
   
   game_hash.keys.each do |team|
     game_hash[team][:players].each do |k|
@@ -221,9 +221,9 @@ def most_points_scored
   game_hash.keys.each do |team|
     game_hash[team][:players].each do |n|
       if n[:shoe] == point
-        rebound = n[:rebounds]
+        player_name = n[:player_name]
       end
     end
   end
-  rebound
+  player_name
 end
