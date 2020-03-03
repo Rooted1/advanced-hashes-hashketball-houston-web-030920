@@ -232,7 +232,7 @@ def winning_team
  team1_points = 0
  team2_points = 0
  
- game_hash[:home][:players].each do ||
+ game_hash[:home][:players].each do |k|
    
   end
   
