@@ -229,11 +229,11 @@ def most_points_scored
 end
 
 def winning_team
- team1_points = 0
- team2_points = 0
+ home_team_points = 0
+ away_team_points = 0
  
  game_hash[:home][:players].each do |k|
-   
+   home_team_points += k[:points]
    binding.pry
   end
   
