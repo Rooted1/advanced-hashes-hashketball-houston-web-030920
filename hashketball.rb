@@ -249,7 +249,7 @@ end
 def player_with_longest_name
   player_names_array = []
   
-  game_hash.keys do |team|
+  game_hash.keys.each do |team|
   #   game_hash[team][:players].each do |k|
       binding.pry
   #   end
