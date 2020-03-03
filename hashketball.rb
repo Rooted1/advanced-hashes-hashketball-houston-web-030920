@@ -229,5 +229,10 @@ def most_points_scored
 end
 
 def winning_team
+ team1_points = []
+ team2_points = []
+ 
+ game_hash[:home]
+  
   
 end
