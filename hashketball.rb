@@ -247,5 +247,8 @@ def winning_team
 end
 
 def player_with_longest_name
+  longest_name_len = 0
   
+  game_hash
+  binding.pry
 end
