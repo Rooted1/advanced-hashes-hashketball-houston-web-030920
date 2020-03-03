@@ -220,7 +220,7 @@ def most_points_scored
   
   game_hash.keys.each do |team|
     game_hash[team][:players].each do |n|
-      if n[:shoe] == point
+      if n[:points] == point
         player_name = n[:player_name]
       end
     end
